@@ -1,0 +1,132 @@
+body {
+	
+	text-align: center;
+	background: grey;
+	margin-top: 250px;
+}
+#main-button {
+	font-size: 45px;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    bottom: 20%;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 150px;
+    animation-name: fadeIn;
+    animation-duration: 500ms;
+	background: rgba(8,80,150,.5);
+	background: -webkit-linear-gradient(left top, rgb(8,80,150), white); 
+	background: -o-linear-gradient(bottom right, rgb(8,80,150), white); 
+	background: -moz-linear-gradient(bottom right, rgb(8,80,150), white); 
+	background: linear-gradient(to bottom right, rgb(8,80,150), white); 
+   
+}
+#modal {
+	background: rgba(0,0,0,0);
+	width: 497px;
+	height: 519px;
+	margin: auto;
+
+	
+}
+#modal-header {
+	margin-bottom: 0;
+}
+#logo {
+
+	margin: 25px 0 0 -58px;
+}
+#title {
+	
+	margin: 0 0 29px 10px;
+}
+#inner-modal {
+	font-family: 'Muli', sans-serif;
+	background: white;
+	width: 400px;
+	height: 290px;
+	margin: -34px 0px 52px 60px;
+	border-radius: 0 25px 0 0;
+
+}
+#inner-border{
+	text-align: justify;
+	padding: 20px;
+}
+h2 {
+	font-size: 22px;
+	padding: 18px 0 0 0;
+	margin: -20px 0 0 0;
+}
+p {
+	font-size: .78em;
+	margin: 0;
+
+}
+form {
+	line-height: 18px;
+	margin-top: 25px;
+	font-size: .78em;
+}
+#sub-header {
+	
+}
+#competitor-price, #required-fields {
+	color: rgb(153,0,0);
+}
+.required-fields {
+	text-align: right;
+	color: rgb(153,0,0);
+	margin-right: 5px;	
+}
+input {
+	height: 20px;
+	width: 350px;
+
+}
+a {
+	color: grey;
+}
+#terms{
+	margin-top: 25px;
+	text-align: right;
+
+}
+#bottom-third {
+	color: white;
+	height: 115px;
+	width: 360px;
+	background: rgb(8,80,150);
+	border-radius: 0 0 0 25px;
+	margin-top: 41px;
+	margin-left: -20px;
+	padding: 0 20px 0 20px;
+	font-size: 20px;
+
+}
+#bottom-title {
+    margin-bottom: 6px;
+}
+.form-button {
+	background-color: rgb(8,80,150);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding: 5px;
+	margin-right: 10px;
+	width: 66px;
+	margin-bottom: 21px;
+	line-height: 20px;
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
